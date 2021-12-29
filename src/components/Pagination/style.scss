@@ -1,0 +1,15 @@
+.pagination {
+  &__elem {
+    cursor: pointer;
+    font-size: 2rem;
+
+    &:hover {
+      color: rgb(143, 210, 255);
+    }
+
+    &.active {
+      cursor: default;
+      color: rgb(143, 210, 255);
+    }
+  }
+}

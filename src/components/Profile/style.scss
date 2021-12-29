@@ -1,0 +1,24 @@
+.profile {
+  &__img {
+    border-radius: 5px;
+    &_container {
+      height: 100px;
+    }
+  }
+
+  &-description {
+    margin-top: 3rem;
+    text-align: center;
+
+    &__elem {
+      &:last-child {
+        display: block;
+        margin-top: 1rem;
+      }
+
+      &_email {
+        text-decoration: none;
+      }
+    }
+  }
+}
